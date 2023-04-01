@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Validation Example</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <!-- Include the jQuery library -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+
+  <!-- Include the Parsley.js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.9.2/parsley.min.js"></script>
+
+
+  
+</head>
+
+<body>
+  <h1>HTML5 Form Validation Example</h1>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <br><br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" minlength="8" required>
+      <br><br>
+      <input type="submit" value="Submit">
+    </form>
+
+
+  <h1>jQuery Validation Plugin Example</h1>
+    <form id="myForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name1" name="name">
+      <br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email1" name="email">
+      <br><br>
+      <label for="password">Password:</label>
+      <input type="password" id="password1" name="password">
+      <br><br>
+      <input type="submit" value="Submit">
+    </form>
+
+
+<h1>Parsley.js Form Validation Example</h1>
+  <form id="myForm2">
+      <label for="name">Name:</label>
+      <input type="text" id="name2" name="name" required>
+      <br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email2" name="email" required>
+      <br><br>
+      <label for="password">Password:</label>
+      <input type="password" id="password2" name="password" minlength="8" required>
+      <br><br>
+      <input type="submit" value="Submit">
+    </form>
+
+  
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
